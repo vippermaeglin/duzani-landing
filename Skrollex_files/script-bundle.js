@@ -232,8 +232,8 @@ module.exports = new (function(){
 	var $bacgrounds;
 	this.prepare = function(callback){
 		if(window.location.protocol === 'file:' && !$('body').hasClass('example-page')){
-			$('<div class="file-protocol-alert alert colors-d background-80 heading fade in">	<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button> Upload files to web server and open template from web server. If template is opened from local file system, some links, functions and examples may work incorrectly.</div>')
-					.appendTo('body');
+			/*$('<div class="file-protocol-alert alert colors-d background-80 heading fade in">	<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button> Upload files to web server and open template from web server. If template is opened from local file system, some links, functions and examples may work incorrectly.</div>')
+					.appendTo('body');*/
 		}
 		if(appShare.force3D === true){
 			$('html').addClass('force3d');
